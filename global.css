@@ -3,3 +3,80 @@
 @import "tailwindcss/utilities.css";
  
 @import "nativewind/theme";
+
+@theme {
+  /* ─────────────────────────────
+     Colors
+  ───────────────────────────── */
+
+  /* App backgrounds */
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+
+  /* Cards / surfaces */
+  --color-card: #1c1c1e;
+  --color-card-foreground: #ffffff;
+
+  /* Muted surfaces */
+  --color-muted: #2c2c2e;
+  --color-muted-foreground: #8e8e93;
+
+  /* Brand */
+  --color-primary: #0a84ff;
+  --color-primary-foreground: #ffffff;
+
+  /* Accent */
+  --color-accent: #5ac8fa;
+  --color-accent-foreground: #ffffff;
+
+  /* Borders */
+  --color-border: rgba(255, 255, 255, 0.12);
+
+  /* Status */
+  --color-success: #30d158;
+  --color-destructive: #ff453a;
+
+  /* Messaging */
+  --color-message-sent: #0a84ff;
+  --color-message-received: #2c2c2e;
+
+  /* Online status */
+  --color-online: #30d158;
+
+
+  /* ─────────────────────────────
+     Spacing
+  ───────────────────────────── */
+
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-14: 56px;
+  --spacing-16: 64px;
+  --spacing-18: 72px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
+  --spacing-30: 120px;
+
+
+  /* ─────────────────────────────
+     Typography
+  ───────────────────────────── */
+
+  --font-sans: sans-regular;
+  --font-sans-light: sans-light;
+  --font-sans-medium: sans-medium;
+  --font-sans-semibold: sans-semibold;
+  --font-sans-bold: sans-bold;
+  --font-sans-extrabold: sans-extrabold;
+}
